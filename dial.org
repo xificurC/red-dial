@@ -5,8 +5,18 @@
 * DiaL
 
 ** Hello, world!
+#+BEGIN_SRC red
+  print "Hello, world!"
+#+END_SRC
+
+#+RESULTS:
+: Hello, world!
 
 ** Math
+*** Calculate 1 + 1
+#+BEGIN_SRC red
+  1 + 1
+#+END_SRC
 
 ** Printing
 
