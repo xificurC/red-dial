@@ -1,16 +1,24 @@
 * What is this?
+  This is a no-nonsense one-stop quick guide to getting effective in [[http://red-lang.org][red]] Although some examples will be simpler to grasp for non-beginners and I may occasionally include examples from other languages for comparison, no prior knowledge of =red= or any other programming language is needed to go through this guide.
+
+  /Dial/ stands for "Do it and Learn". There will be short and simple tasks to solve. By doing these tasks you will learn the language. Simple, isn't it? I will always explain the necessary minimum to finish the task (or leave enough clues).
 
 * Preparations
+  You need access to a copy of the =red= interpreter. For local installation check you distribution's packages. If you don't find a recent enough version download one from [[http://www.red-lang.org/p/download.html][here]].
 
 * DiaL
 
 ** Hello, world!
-#+BEGIN_SRC red
-  print "Hello, world!"
-#+END_SRC
+   *The task*: Every programming book, guide, tutorial etc. starts with this task. Print "Hello, world!".
 
-#+RESULTS:
-: Hello, world!
+   *The clues*: strings (text) are written by surrounding them in double quotes, "like this". Printing can be done with the =print= function. To call a function you simply write down its name, followed by its arguments. No parentheses or other syntax, just keep a space between each word.
+
+   *The solution*:
+   #+BEGIN_SRC red
+   print "Hello, world!"
+   #+END_SRC
+
+   *Closing notes*: Use the =?= or =help= function to get information about a function. Try it now, write =? print= in the console. Use it often from now on. Don't worry if you don't understand all the details yet.
 
 ** Math
 *** Calculate 1 + 1
