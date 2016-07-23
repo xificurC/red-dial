@@ -1,7 +1,7 @@
 * What is this?
   This is a no-nonsense one-stop quick guide to getting effective in [[http://red-lang.org][red]] Although some examples will be simpler to grasp for non-beginners and I may occasionally include examples from other languages for comparison, no prior knowledge of =red= or any other programming language is needed to go through this guide.
 
-  /Dial/ stands for "Do it and Learn". There will be short and simple tasks to solve. By doing these tasks you will learn the language. Simple, isn't it? I will always explain the necessary minimum to finish the task (or leave enough clues).
+  /Dial/ stands for "Do it and Learn". There will be short and simple tasks to solve. By doing these tasks you will learn the language. Simple, isn't it? I will always explain the necessary minimum to finish the task (or leave enough clues). By the time you finish this guide (which won't be too long) you will be able to solve real world tasks in =red=. We won't cover [[https://projecteuler.net/][complicated math]] or [[http://codegolf.stackexchange.com/][shortest solutions]] as there are other places for that. The intention is to _get productive ASAP_.
 
 * Preparations
   You need access to a copy of the =red= interpreter. For local installation check you distribution's packages. If you don't find a recent enough version download one from [[http://www.red-lang.org/p/download.html][here]].
